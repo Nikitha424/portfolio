@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voruganti Nikitha | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">&lt;A/&gt;</span>
+                <span class="logo-text">NIKITHA</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active"><i class="fas fa-terminal"></i> Home</a>
+                <a href="#summary" class="nav-link"><i class="fas fa-file-alt"></i> Summary</a>
+                <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+                <a href="#projects" class="nav-link"><i class="fas fa-cubes"></i> Projects</a>
+                <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#achievements" class="nav-link"><i class="fas fa-trophy"></i> Achievements</a>
+                <a href="#testimonials" class="nav-link"><i class="fas fa-comments"></i> Testimonials</a>
+            </nav>
+            <div class="nav-right">
+                <a href="assets/cv.pdf" download="Voruganti_Nikitha_CV.pdf" class="btn btn-nav">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section id="home" class="section hero-section">
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">system_auth.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="term-line output-text">// INITIALIZING SECURE PORTFOLIO SESSION...</p>
+                    <h1 class="glitch-text" data-text="VORUGANTI NIKITHA">VORUGANTI NIKITHA</h1>
+                    <h2 class="sub-role">Java Full Stack & Salesforce Developer</h2>
+                    <div class="hero-contact">
+                        <p><i class="fas fa-phone-alt"></i> +91 7286820528</p>
+                        <p><i class="fas fa-envelope"></i> vorugantinikitha@gmail.com</p>
+                        <p><i class="fas fa-calendar-alt"></i> DOB: 24-11-2003</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nikithavoruganti-b436b2291" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nikitha424" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-folder-open"></i> View Database Projects</a>
+                        <a href="assets/cv.pdf" download="Voruganti_Nikitha_CV.pdf" class="btn btn-secondary"><i class="fas fa-cloud-download-alt"></i> Pull Complete CV.dmg</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="summary" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">01.</span> Professional Summary</h2>
+            <div class="data-block">
+                <div class="data-block-header">
+                    <i class="fas fa-user-shield"></i> PROFILE_BIO_LOG
+                </div>
+                <div class="data-block-body">
+                    <p class="summary-text">
+                        Enthusiastic Java Full Stack Developer with hands-on experience in developing web applications using HTML, CSS, JavaScript, and Java. Possesses deep core knowledge of front-end design, back-end system architecture logic, basic REST APIs, and structured relational MySQL management pipelines. Equipped with strong analytical problem-solving patterns and an adaptive capacity to synthesize complex novel technological stacks efficiently. Seeking an enterprise engineering matrix position to deploy high-value engineering builds while compounding personal core competencies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">02.</span> Core Engineering Architecture</h2>
+            <div class="skills-grid">
+                
+                <div class="skills-card">
+                    <div class="card-edge"></div>
+                    <h3><i class="fas fa-code-branch"></i> Languages</h3>
+                    <ul class="skills-list">
+                        <li><span>Core Java</span><div class="skill-bar"><div class="fill" style="width: 90%"></div></div></li>
+                        <li><span>SQL</span><div class="skill-bar"><div class="fill" style="width: 85%"></div></div></li>
+                        <li><span>HTML / CSS</span><div class="skill-bar"><div class="fill" style="width: 95%"></div></div></li>
+                        <li><span>JavaScript</span><div class="skill-bar"><div class="fill" style="width: 80%"></div></div></li>
+                        <li><span>Python</span><div class="skill-bar"><div class="fill" style="width: 75%"></div></div></li>
+                        <li><span>C / C++</span><div class="skill-bar"><div class="fill" style="width: 70%"></div></div></li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <div class="card-edge"></div>
+                    <h3><i class="fas fa-cubes"></i> Java Stack</h3>
+                    <div class="tag-container">
+                        <span class="tech-tag">Collections Framework</span>
+                        <span class="tech-tag">JDBC</span>
+                        <span class="tech-tag">Servlets</span>
+                        <span class="tech-tag">JSP</span>
+                        <span class="tech-tag">Hibernate ORM</span>
+                        <span class="tech-tag">Spring Framework</span>
+                        <span class="tech-tag">Maven Build Automation</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="card-edge"></div>
+                    <h3><i class="fas fa-cloud"></i> Salesforce Ecosystem</h3>
+                    <div class="tag-container">
+                        <span class="tech-tag">Salesforce Administration</span>
+                        <span class="tech-tag">Apex Programming</span>
+                        <span class="tech-tag">Lightning Web Components (LWC)</span>
+                        <span class="tech-tag">SOQL (Salesforce Object Query)</span>
+                        <span class="tech-tag">Automated Flows</span>
+                        <span class="tech-tag">Reports & Dashboards</span>
+                        <span class="tech-tag">Agentforce AI Integration</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="card-edge"></div>
+                    <h3><i class="fas fa-database"></i> Database Engine / Tools</h3>
+                    <div class="tag-container">
+                        <span class="tech-tag">PostgreSQL Engine</span>
+                        <span class="tech-tag">Oracle Enterprise DB</span>
+                        <span class="tech-tag">Advanced SQL Querying</span>
+                        <span class="tech-tag">Relational Database Design</span>
+                        <span class="tech-tag">Connection Pooling Systems</span>
+                        <span class="tech-tag">Git Version Architecture</span>
+                        <span class="tech-tag">TensorFlow Engine</span>
+                        <span class="tech-tag">Arduino Embedded Micro-systems</span>
+                        <span class="tech-tag">Ubuntu & Kali Linux Environments</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">03.</span> Deployment Registries (Projects)</h2>
+            <div class="projects-container">
+
+                <div class="project-row">
+                    <div class="project-meta">
+                        <span class="proj-id">PRJ_ID: 001</span>
+                        <h3>Breast Cancer Detection Matrix</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Nikitha424/Breast-Cancer-Detection" target="_blank"><i class="fab fa-github"></i> Source Hub</a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <p>Built and optimized a breast cancer prediction model using the Wisconsin Diagnostic Dataset with SVM, KNN, and Random Forest, achieving high accuracy through preprocessing, feature selection, and cross-validation.</p>
+                        <p>Evaluated model performance using confusion matrices, ROC curves, and accuracy/loss graphs to ensure reliability and precision. Achieved high accuracy and precision in model performance through hyperparameter tuning and cross-validation.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>SVM</span><span>KNN</span><span>Random Forest</span><span>Data Science</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row">
+                    <div class="project-meta">
+                        <span class="proj-id">PRJ_ID: 002</span>
+                        <h3>Chest Diseases Detection using CNN Algorithm</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Nikitha424/Chest-Diseases-Detection-using-CNN-Algorithm" target="_blank"><i class="fab fa-github"></i> Source Hub</a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <p>Developed a CNN model using Keras and TensorFlow to classify chest X-ray images and detect diseases like pneumonia, with preprocessing and data augmentation to improve generalization.</p>
+                        <p>Achieved high detection accuracy, validating performance with accuracy, precision, recall, and confusion matrix for effective medical image analysis.</p>
+                        <div class="project-tags">
+                            <span>TensorFlow</span><span>Keras</span><span>CNN Algorithm</span><span>Computer Vision</span><span>Ubuntu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row">
+                    <div class="project-meta">
+                        <span class="proj-id">PRJ_ID: 003</span>
+                        <h3>Android Fingerprint Arduino Control Door Lock</h3>
+                    </div>
+                    <div class="project-details">
+                        <p>This project is designed to control home appliances within smart home environments utilizing a user-friendly, low-cost structure with a simple physical installation framework.</p>
+                        <p>Requires precise physical real-time data frame interactions and interface bridges between the mobile client layer and the foundational hardware microcontroller unit node.</p>
+                        <div class="project-tags">
+                            <span>Arduino</span><span>Android Core</span><span>Embedded Systems</span><span>Hardware Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row">
+                    <div class="project-meta">
+                        <span class="proj-id">PRJ_ID: 004</span>
+                        <h3>Keyless Entry System Architecture</h3>
+                    </div>
+                    <div class="project-details">
+                        <p>Engineered an automated structural mechanism utilizing Arduino architectures designed to open locks instantly via physical RFID/NFC frequencies.</p>
+                        <p>Provides a best-in-class modernized paradigm way to safely operate digital locks, fundamentally eradicating traditional legacy mechanical locking frameworks.</p>
+                        <div class="project-tags">
+                            <span>Arduino Matrix</span><span>RFID</span><span>NFC</span><span>Security Hardware</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="education" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">04.</span> Academic Ledger Data</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2021 - May 2025</span>
+                        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                        <h4>Data Science Matrix Sub-Specialty</h4>
+                        <p class="institution">CMR College of Engineering and Technology</p>
+                        <div class="metric-badge">System Performance: CGPA 8.47 / 10.00</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2019 - March 2021</span>
+                        <h3>Intermediate Matriculation (MPC Cluster)</h3>
+                        <p class="institution">Sri Chaitanya Junior Kalasala</p>
+                        <div class="metric-badge">Aggregate Throughput: 75.5%</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2018 - March 2019</span>
+                        <h3>High School Certificate System (SSC)</h3>
+                        <p class="institution">Rajdhani Model High School</p>
+                        <div class="metric-badge">System Performance: CGPA 9.3 / 10.0</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="achievements" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">05.</span> System Achievements & Event Logs</h2>
+            <div class="achievements-matrix">
+                <div class="ach-box">
+                    <div class="ach-icon"><i class="fas fa-medal"></i></div>
+                    <div class="ach-info">
+                        <h4>District Level Athlete</h4>
+                        <p>Formally verified and recognized as a District Level Kabaddi Player.</p>
+                    </div>
+                </div>
+                <div class="ach-box">
+                    <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="ach-info">
+                        <h4>Tournament Victory Champion</h4>
+                        <p>Secured First Place honors in Competitive Kabaddi Matches held at CMRCET campus.</p>
+                    </div>
+                </div>
+                <div class="ach-box">
+                    <div class="ach-icon"><i class="fas fa-hands-helping"></i></div>
+                    <div class="ach-info">
+                        <h4>NSS Command Volunteer</h4>
+                        <p>Active National Service Scheme (NSS) tactical operative node volunteer at CMRCET.</p>
+                    </div>
+                </div>
+                <div class="ach-box">
+                    <div class="ach-icon"><i class="fas fa-sitemap"></i></div>
+                    <div class="ach-info">
+                        <h4>Operational Infrastructure Lead</h4>
+                        <p>Appointed Event Organizer managing workflows for the Azura Technical Fest within CMRCET.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section dynamic-reveal">
+            <h2 class="section-heading"><span class="accent-color">06.</span> Node Endorsements</h2>
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    
+                    <div class="testimonial-slide active">
+                        <div class="terminal-quote">
+                            <p class="quote-text">"Nikitha demonstrates exceptional engineering discipline. Her capacity to pick up enterprise Salesforce workflows along with complex backend Java architecture patterns during team sprints was vital."</p>
+                            <div class="quote-author">
+                                <span class="author-name">Senior Engineering Lead</span>
+                                <span class="author-meta">Enterprise Integration Systems Node</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="terminal-quote">
+                            <p class="quote-text">"Her breast cancer detection project code architecture is structurally clean, organized, and perfectly optimized. She approaches software engineering challenges with a rigorous data science methodology."</p>
+                            <div class="quote-author">
+                                <span class="author-name">Project Evaluator Panel</span>
+                                <span class="author-meta">Data Infrastructure Lab Matrix</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="terminal-quote">
+                            <p class="quote-text">"Highly motivated engineering professional. From managing complex operational logistics as Azura Fest organizer to delivering fast-paced technical components, she remains highly reliable under stress."</p>
+                            <div class="quote-author">
+                                <span class="author-name">CMRCET Program Director</span>
+                                <span class="author-meta">Academic Operations Management Room</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-dots" id="carousel-dots"></div>
+                    <button class="carousel-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="terminal-footer">
+        <div class="footer-container">
+            <p class="footer-status"><span class="pulse-dot"></span> SECURITY SYSTEM NODE ACTIVE // CONNECTED VIA PORT 443</p>
+            <p class="copyright">&copy; 2026 VORUGANTI NIKITHA. All rights reserved. System compiled successfully.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
